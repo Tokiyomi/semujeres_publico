@@ -10,8 +10,107 @@
 
     <title>SEMUJERES</title>
   </head>
+  <style>
+    .index #mainNav {
+        background-color: transparent;
+        border-bottom: none;
+    }
+    #header-label {
+        display: none;
+    }
+    #mainNav.scrolled {
+        background-color: #fff;
+        border-bottom: 1px solid #c3c4c7;
+    }
+    #mainNav.scrolled #header-label {
+        display: block;
+    }
+    .index #main-content {
+        background: url(img/fondo_lg.svg) center top no-repeat;
+        background-size: contain;
+    }
+    .page-title-light {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+    }
+    .text-consulta {
+        font-size: 1.3rem;
+        line-height: 1.2;
+        font-weight: 600;
+        color: var(--blue);
+    }
+    .subtitle a {
+        color: var(--dark);
+    }
+    a.text-dark, a.text-dark:hover {
+        text-decoration: none;
+    }
+    /* Lista dependencias */
+    .vin-list {
+        -moz-column-count: 2;
+        -moz-column-gap: 3rem;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 3rem;
+        column-count: 2;
+        column-gap: 3rem;
+    }
+    .vin-list li {
+        margin-bottom: 1rem;
+    }
+    @media (max-width: 991px) {
+        .index #main-content {
+            background: url(img/fondo_md.svg) right top no-repeat;
+            background-size: contain;
+        }
+    }
+    #transversal-big > * {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    #transversal-small {
+        display: none;
+    }
+    @media (max-width: 767px) {
+        .index #main-content {
+            background: url(img/fondo_sm.svg) right top no-repeat;
+            background-size: unset;
+        }
+        .page-title-light {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .text-consulta {
+            font-size: 1rem;
+        }
+        .vin-list {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+        }
+        #transversal-big {
+            display: none;
+        }
+        #transversal-small {
+            display: block;
+        }
+    }
+    @media (max-width: 575px) {
+        .page-title-light {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+    </style>
   <body>
-    <h1 class="text-center mt-5 display-4 text-primary">Dashboard Interactivo</h1>
+    <img src="img/semujeres_logo.jpg" alt="semujeres_logo"c class="center">
+    <div class="page-title-light">
+        Dashboard Interactivo chido></div>
+    <h1>Dashboard Interactivo</h1>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
