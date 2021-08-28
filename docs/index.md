@@ -4,15 +4,9 @@ You can use the [editor on GitHub](https://github.com/Tokiyomi/semujeres.github.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-```css
-{% include g1.html %}
-```
-
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions forfg
-
-[a link](https://github.com/Tokiyomi/semujeres_publico/tree/main/docs/_includes/g1.html)
 
 ```markdown
 Syntax highlighted code block
