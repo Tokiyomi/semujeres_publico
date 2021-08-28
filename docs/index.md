@@ -1,4 +1,4 @@
-<img src="C:\Users\carol\Desktop\semujeres_publico\docs\img\semujeres_logo.jpg" alt="semujeres_logo" style="zoom:67%;" />
+![una foto](https://github.com/Tokiyomi/semujeres_publico/tree/main/docs/img/semujeres_logo.jpg)
 
 ## Dashboard Interactivo
 
