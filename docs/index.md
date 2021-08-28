@@ -1,8 +1,8 @@
-![una foto](https://github.com/Tokiyomi/semujeres_publico/tree/main/docs/img/semujeres_logo.jpg)
+<img src="img/semujeres_logo.jpg" alt="una foto" style="zoom:40%;" align="center" />
 
 ## Dashboard Interactivo
 
-
+Agregar fotitos
 
 
 
